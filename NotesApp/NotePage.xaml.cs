@@ -7,7 +7,7 @@ public partial class NotePage : ContentPage
     public NotePage()
 	{
 		InitializeComponent();
-		if (File.Exists(fileName))
+		if (File.Exists(fileName)) ;
 	}
 
 	private void SalvarButton_Clicked(object sender, EventArgs e)
